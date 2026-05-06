@@ -1,0 +1,100 @@
+---
+title: "project-lib"
+author: "Collaborative class project"
+date: "2026-05-05"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Task Allocation
+
+In a list, provide your name and which task you completed
+
+## Reproducible Data Science
+
+### The Importance of Reproducible Research: Main Steps
+
+Here, you should explain why research needs to be reproducible and transparent, and provide a brief overview of the key steps involved.
+
+### Open Science and FAIR Data Principles
+
+Summarise the main principles of Open Science and explain what FAIR Data Principles stand for. Explain the main steps one should take to make their work reproducible.
+
+### Resources and Platforms 
+
+Provide brief descriptions and links to the resources that one could use to make their work reproducible.
+
+
+## The Art (and Science) of Plotting
+
+### Plot Types
+
+Provide an overview of the main plot types (including visual examples) and explain which types of data are best suited for each kind of plot.
+
+### Colour Palettes
+
+Explain how to use colour palettes effectively, which types of palettes are best suited to different kinds of data, and what factors should be considered when selecting an appropriate colour scheme.
+
+### Plotting Tools and Resources
+
+Here, you should include links and brief descriptions of platforms and software for data visualization and colour palette selection, as well as useful R packages for plotting and styling graphics.
+
+
+## Linguistic Database Repository
+
+### Database Types
+
+Summarise the main types of linguistic databases and describe the key features that distinguish them from one another.
+
+### Choosing Database for your Research
+
+Explain which types of linguistic databases are best suited to different major research directions in linguistics.
+
+### Links and Descriptions
+
+Provide links to several linguistic databases and briefly summarise the type of data each one contains.
+
+
+## Handling messy data with *tidyverse*
+
+### *Tidyverse* umbrella
+
+Explain which packages are included in *tidyverse* and describe the purpose of each package and the types of tasks it is best suited for.
+
+### *Dplyr* cheat sheet
+
+Provide the list of most useful *dplyr* commands, explain what they do, and demonstrate how they work
+
+### *Tidyr* cheat sheet
+
+Provide the list of most useful *tidyr* commands, explain what they do, and demonstrate how they work
+
+### *Ggplot2* cheat sheet
+
+Provide the list of *ggplot2* commands and aesthetic parameters, explain what they do, and demonstrate which changes they make to a plot
+
+
+## Compiling an R Markdown document
+
+### Markdown Output Formats
+
+Summarise the main output formats (not all available options) and explain what each is useful for.
+
+### Markdown Text Formatting
+
+Demonstrate how to format text, create lists, provide links, embed images, create footnotes
+
+### Markdown Citations
+
+Explain how to create cross-references within a document, generate a bibliography, and properly add citations.
+
+### Formatting Tables 
+
+Explain how to create tables and captions, and describe the main table formatting options available in R Markdown.
+
+### Code Cells
+
+Summarise the main parameters used to create and format code chunks in R Markdown, and explain how these options affect the resulting code output and document rendering.
