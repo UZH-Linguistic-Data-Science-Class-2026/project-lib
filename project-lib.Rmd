@@ -25,15 +25,24 @@ Summarise the main principles of Open Science and explain what FAIR Data Princip
 
 ### Resources and Platforms 
 
-There are many tools and platforms that can support reproducible research.
+Several tools introduced in class can support reproducible research.
 
-- GitHub (https://github.com)  
-  GitHub is useful for version control and group collaboration. Researchers can save different versions of their code and work together on the same project.
+- R
+  R is a programming language widely used for statistical analysis and data science.
 
-- RStudio (https://posit.co)  
-  RStudio is a common environment for working with R. It supports writing scripts, creating R Markdown files, and organising analyses.
+- RStudio
+  RStudio provides a convenient environment for writing and running R code, managing files, and organising projects.
 
-These resources make it easier to organise research materials and allow others to reproduce the analysis.
+- R Markdown
+  R Markdown allows researchers to combine code, results, and written explanations in one document.
+
+- GitHub  
+  GitHub helps track changes in code and makes collaboration in group projects easier.
+
+- Tidyverse
+  Tidyverse is a collection of R packages for data cleaning, analysis, and visualisation. Packages such as dplyr, tidyr, and ggplot2 are commonly used in data science.
+
+These tools help researchers organise their workflow and make analyses easier to reproduce.
 
 
 ## The Art (and Science) of Plotting
