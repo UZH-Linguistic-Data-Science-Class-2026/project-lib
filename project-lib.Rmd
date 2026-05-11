@@ -17,7 +17,10 @@ In a list, provide your name and which task you completed
 
 ### The Importance of Reproducible Research: Main Steps
 
-Here, you should explain why research needs to be reproducible and transparent, and provide a brief overview of the key steps involved.
+You should always show, how you got to the results of your research, so other people can check your research and reproduce it. They could potentially also
+create new experiments based on your work, which means they need to be able to understand your reasoning and the steps you took to get to your results. 
+The UZH has a center for [Reproducable Science](!https://www.crs.uzh.ch/en.html) that provides help and instructions on how to conduct reproducable science and research.
+
 
 ### Open Science and FAIR Data Principles
 
