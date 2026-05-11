@@ -81,7 +81,13 @@ Provide the list of *ggplot2* commands and aesthetic parameters, explain what th
 
 ### Markdown Output Formats
 
-Summarise the main output formats (not all available options) and explain what each is useful for.
+The main output formats are HTML, PDF and Microsoft Word (docx).
+#### HTML Markdown Format
+HTML is usefull when publishing directly on a website, blogs and other online documentation because HTML is the standard language for websites.
+#### PDF Markdown Format
+PDF is usefull for a final report, papers, books and other finalised publications because it preserves its formatting over all devices.
+#### DOCX Markdown Format
+DOCX is usefull for collaborative work as well as files that need further editing.
 
 ### Markdown Text Formatting
 
