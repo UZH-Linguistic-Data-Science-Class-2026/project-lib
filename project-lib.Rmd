@@ -25,7 +25,19 @@ Summarise the main principles of Open Science and explain what FAIR Data Princip
 
 ### Resources and Platforms 
 
-Provide brief descriptions and links to the resources that one could use to make their work reproducible.
+To make research more reproducible, researchers can use a variety of digital tools and platforms throughout the research workflow.
+
+- **[GitHub](https://github.com?utm_source=chatgpt.com)**: GitHub supports version control and collaboration. It allows researchers to track changes in their code, work in branches, and share their projects with others.
+
+- **[Posit (RStudio)](https://posit.co?utm_source=chatgpt.com)**: Posit provides an integrated development environment for R. It helps researchers write scripts, create R Markdown documents, and organise their analyses.
+
+- **[CRAN](https://cran.r-project.org?utm_source=chatgpt.com)**: CRAN is the main repository for R packages. Researchers can install and manage packages needed for data analysis.
+
+- **[Open Science Framework (OSF)](https://osf.io?utm_source=chatgpt.com)**: OSF allows researchers to share datasets, protocols, and project materials in an open and transparent way.
+
+- **[Zenodo](https://zenodo.org?utm_source=chatgpt.com)**: Zenodo enables researchers to archive datasets, code, and publications, and provides a DOI for citation.
+
+Using these platforms helps researchers document their workflow, share materials openly, and ensure that analyses can be reproduced by others.
 
 
 ## The Art (and Science) of Plotting
