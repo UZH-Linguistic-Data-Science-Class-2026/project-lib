@@ -25,8 +25,6 @@ Summarise the main principles of Open Science and explain what FAIR Data Princip
 
 ### Resources and Platforms 
 
-Several tools introduced in class can support reproducible research.
-
 - R
   R is a programming language widely used for statistical analysis and data science.
 
@@ -40,9 +38,18 @@ Several tools introduced in class can support reproducible research.
   GitHub helps track changes in code and makes collaboration in group projects easier.
 
 - Tidyverse
-  Tidyverse is a collection of R packages for data cleaning, analysis, and visualisation. Packages such as dplyr, tidyr, and ggplot2 are commonly used in data science.
+  Tidyverse is a collection of R packages for data science.
 
-These tools help researchers organise their workflow and make analyses easier to reproduce.
+- dplyr
+  dplyr is useful for data manipulation, such as filtering, selecting, and summarising data.
+
+- tidyr
+  tidyr helps organise and reshape data into a tidy format.
+
+- ggplot2
+  ggplot2 is used for creating clear and informative data visualisations.
+
+These tools help researchers organise workflow and make analyses easier to reproduce.
 
 
 ## The Art (and Science) of Plotting
