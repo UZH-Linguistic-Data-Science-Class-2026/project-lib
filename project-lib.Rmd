@@ -65,6 +65,17 @@ Provide an overview of the main plot types (including visual examples) and expla
 
 Explain how to use colour palettes effectively, which types of palettes are best suited to different kinds of data, and what factors should be considered when selecting an appropriate colour scheme.
 
+It is important to choose appropriate colours to represent you data. The chosen palette should reflect the meaning of the variable. Colours make the figures more appealing and memorable. In papers/reports, you have to prioritize consistency and readability.
+
+Types of palettes:
+Sequential palettes: for ordered data or magnitude/intensity/frequency (Exp.: population density)
+Diverging scales: data with meaningful midpoint or direction & magnitude of difference (Exp.: correlation from -1 to 1)
+Categorical/qualitative palettes: for unordered/categorical data; no implied ordering (Exp.: countries)
+
+It is important to consider accessibility when choosing colour palettes. For example, colour blind people won't perceive the colours the same way as someone who isn't colour blind. It is also important to check the contrast between light and dark backgrounds and text. Also, the number of categories matter too because too many colours may cause chaos and make the visualization unreadable. You also have to consider that the colour choices are safe if you want to print your visualizations. 
+
+Useful ggplot packages for colours are: viridis, RColorBrewer and paletteer.
+
 ### Plotting Tools and Resources
 
 Here, you should include links and brief descriptions of platforms and software for data visualization and colour palette selection, as well as useful R packages for plotting and styling graphics.
