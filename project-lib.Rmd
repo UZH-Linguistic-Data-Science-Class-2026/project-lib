@@ -28,7 +28,31 @@ Summarise the main principles of Open Science and explain what FAIR Data Princip
 
 ### Resources and Platforms 
 
-Provide brief descriptions and links to the resources that one could use to make their work reproducible.
+- R
+  R is a programming language widely used for statistical analysis and data science.
+
+- RStudio
+  RStudio provides a convenient environment for writing and running R code, managing files, and organising projects.
+
+- R Markdown
+  R Markdown allows researchers to combine code, results, and written explanations in one document.
+
+- GitHub  
+  GitHub helps track changes in code and makes collaboration in group projects easier.
+
+- Tidyverse
+  Tidyverse is a collection of R packages for data science.
+
+- dplyr
+  dplyr is useful for data manipulation, such as filtering, selecting, and summarising data.
+
+- tidyr
+  tidyr helps organise and reshape data into a tidy format.
+
+- ggplot2
+  ggplot2 is used for creating clear and informative data visualisations.
+
+These tools help researchers organise workflow and make analyses easier to reproduce.
 
 
 ## The Art (and Science) of Plotting
