@@ -74,7 +74,29 @@ Provide the list of most useful *tidyr* commands, explain what they do, and demo
 
 ### *Ggplot2* cheat sheet
 
-Provide the list of *ggplot2* commands and aesthetic parameters, explain what they do, and demonstrate which changes they make to a plot
+*ggplot()* initialises a plot object
+
+Different type of plots:
+    *geom_point()* creates a scatter plot
+    *geom_line()* creates a line plot
+    *geom_bar()* creates a bar plot
+    *geom_col()* creates a column plot
+    *geom_histogram()* creates a histogram
+    *geom_boxplot()* creates a box plot
+    *geom_violin()* creates a violin plot
+    *geom_density()* creates a density plot
+    *geom_smooth()* adds a smoothed line to the plot
+
+Core aesthetics:
+    *aes(x, y, color, fill, size, shape, alpha)*
+    where x and y define the horizontal and vertical axes, color and fill control the color, size controls the size of points or line, shape controls the point symbol, and alpha controls the transparency.
+
+Further parameters are 
+    - *linetype* to control the line style (dashed, dotted or solid)
+    - *group* to specify how observations are grouped
+
+You can also adjust the labels and titles using *labs(title = "Your Title", x = "X-axis Label", y = "Y-axis Label")* and *theme()*, where labs() takes care of titles and axis labels, and theme(), like theme_minimal(), theme_bw() and theme_classic(), allows you to customize the overall appearance of the plot, including text size, font, background, and grid lines.
+You can flip the axes using *coord_flip()*
 
 
 ## Compiling an R Markdown document
