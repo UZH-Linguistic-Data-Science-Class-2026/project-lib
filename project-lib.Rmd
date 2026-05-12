@@ -89,7 +89,19 @@ Summarise the main types of linguistic databases and describe the key features t
 
 ### Choosing Database for your Research
 
-Explain which types of linguistic databases are best suited to different major research directions in linguistics.
+Choosing the right database depends on what aspect of language you want to investigate.
+
+For **typological research**, [WALS](https://wals.info) (World Atlas of Language Structures) is the most widely used database. It contains over 200 linguistic features like word order, case marking, and phoneme inventories, each displayed on an interactive world map across thousands of languages. [AUTOTYP](https://www.autotyp.uzh.ch) is a good alternative that focuses more on how grammatical categories interact with each other, for example how case marking, agreement, and clause linkage work together. It provides more fine-grained morphosyntactic data than WALS.
+
+For **historical and comparative linguistics**, [Glottolog](https://glottolog.org) is the main reference. It covers nearly all known languages with their genealogical classification, geographic location, and bibliographic references. It doesn't contain grammatical features like WALS, but it's essential when you need to know which language family a language belongs to or find published descriptions of a language.
+
+For **corpus-based research**, [BNC](http://www.natcorp.ox.ac.uk) (British National Corpus) and [COCA](https://www.english-corpora.org/coca/) (Corpus of Contemporary American English) are commonly used for studying things like word frequency, collocations, and usage patterns in English. For research on language acquisition, [CHILDES](https://childes.talkbank.org) contains transcribed conversations between children and caregivers in many languages and is the standard resource in the field.
+
+For **phonetics and phonology**, [PHOIBLE](https://phoible.org) collects phonological inventories from across the world's languages, documenting which consonants, vowels, and tones each language uses. It's useful for cross-linguistic comparisons of sound systems.
+
+For **endangered and under-documented languages**, [ELAR](https://www.elararchive.org) (Endangered Languages Archive) and [PARADISEC](https://www.paradisec.org.au) store audio and video recordings, transcriptions, and other field data from languages that have very limited documentation.
+
+In many cases, combining databases gives you a more complete picture. For example, a typological study could draw structural data from WALS and genealogical information from Glottolog to investigate whether a cross-linguistic pattern is driven by shared ancestry or independent development.
 
 ### Links and Descriptions
 
