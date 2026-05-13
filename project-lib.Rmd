@@ -21,7 +21,28 @@ Here, you should explain why research needs to be reproducible and transparent, 
 
 ### Open Science and FAIR Data Principles
 
-Summarise the main principles of Open Science and explain what FAIR Data Principles stand for. Explain the main steps one should take to make their work reproducible.
+**Open Science** is a term that describes the practice of making all types of scientific resources (data, results, methods, etc.) publicly available at every stage of the research process. Open Science aims to improve the efficiency and quality of research, and has many advantages in various fields.
+The main key areas of Open Science are:
+- Public access to scientific data and services, including codes, publications, and sources;
+- Publications are registered as open (Open Access) when they are digital, online, free of charge, and free of copyright and licensing restrictions.
+- Research methods that are reproducible, replicable, transparent, efficient, and improve the robustness of scientific services
+- The implementation of cultural change within university structures and the working methods of researchers.
+[The University of Zurich] (https://www.openscience.uzh.ch/de/open-science-an-uzh.html) engages with Open Science at an international and national level and is part of various initiatives.
+
+The **FAIR data principles** are a fundamental part of open science, which implies the following:
+- **Findable**: data must be easily findable and machine-readable, and have a unique persistent identifier.
+- **Accessible**: data and publications must be accessible to everyone.
+- **Interoperable**: data must be processed using open-source software that is easily downloadable and usable.
+- **Re-usable**: everything must be documented for future studies to be re-used.
+It is necessary that the data used in research follow the FAIR data principles so that the research is as accessible and reproducible as possible.
+
+Main steps to make your work reproducible: 
+- Provide tested and documented source code
+- Use dependencies that are easy to find and install
+- Use open-source programming languages
+- Use open-source operating systems
+- Make raw data and data scripts accessible to everyone
+- Preregister your research
 
 ### Resources and Platforms 
 
