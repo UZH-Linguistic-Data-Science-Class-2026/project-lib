@@ -32,7 +32,20 @@ Provide brief descriptions and links to the resources that one could use to make
 
 ### Plot Types
 
-Provide an overview of the main plot types (including visual examples) and explain which types of data are best suited for each kind of plot.
+With ggplot2 you can create several Plot Types to visualize your data and each Plot has a different use.
+
+If you want to visualiuze freuquencies, counts and proportions you better use either a bar plot, a dot plot or a line plot.
+
+
+If you want to visualize continous Data you have several option to choose from depending on what exactly you want to visualize.
+You can use a histogram or a density plot to show the density of your distribution.
+
+
+With the use of a box or a violin plot, you can visualize summary statistics across groups.
+
+
+If however you want to show relationships between two numeric variables you should use a scatter plot.
+
 
 ### Colour Palettes
 
