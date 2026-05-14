@@ -35,17 +35,21 @@ Provide brief descriptions and links to the resources that one could use to make
 With ggplot2 you can create several Plot Types to visualize your data and each Plot has a different use.
 
 If you want to visualiuze freuquencies, counts and proportions you better use either a bar plot, a dot plot or a line plot.
-
+![Bar-Plot](/Users/patrickblumrich/Bildschirmfotos/Bar_Plot.png)
+![Dot-Plot](/Users/patrickblumrich/Bildschirmfotos/Dot_Plot.png)
+![Line-Plot](/Users/patrickblumrich/Bildschirmfotos/Line_Plot.png)
 
 If you want to visualize continous Data you have several option to choose from depending on what exactly you want to visualize.
 You can use a histogram or a density plot to show the density of your distribution.
-
+![Histogram](/Users/patrickblumrich/Bildschirmfotos/Histogram.png)
+![Density-Plot](/Users/patrickblumrich/Bildschirmfotos/Density_Plot.png)
 
 With the use of a box or a violin plot, you can visualize summary statistics across groups.
-
+![Box-Plot](/Users/patrickblumrich/Bildschirmfotos/Box_Plot.png)
+![Violin-Plot](/Users/patrickblumrich/Bildschirmfotos/Violin_Plot.png)
 
 If however you want to show relationships between two numeric variables you should use a scatter plot.
-
+![Scatter-Plot](/Users/patrickblumrich/Bildschirmfotos/Scatter_Plot.png)
 
 ### Colour Palettes
 
