@@ -80,7 +80,24 @@ These tools help researchers organise workflow and make analyses easier to repro
 
 ### Plot Types
 
-Provide an overview of the main plot types (including visual examples) and explain which types of data are best suited for each kind of plot.
+ggplot2 allows the creation of various plot types for data visualization, each serving a different analytical purpose.
+
+Bar plots, dot plots, and line plots are commonly used to visualize frequencies, counts, and proportions.
+![Bar-Plot](/Users/patrickblumrich/Bildschirmfotos/Bar_Plot.png)
+![Dot-Plot](/Users/patrickblumrich/Bildschirmfotos/Dot_Plot.png)
+![Line-Plot](/Users/patrickblumrich/Bildschirmfotos/Line_Plot.png)
+
+Several visualization options are available for continuous data, depending on the type of information that should be emphasized.
+Histograms and density plots are commonly used to visualize the distribution of continuous data.
+![Histogram](/Users/patrickblumrich/Bildschirmfotos/Histogram.png)
+![Density-Plot](/Users/patrickblumrich/Bildschirmfotos/Density_Plot.png)
+
+Box plots and violin plots are commonly used to compare summary statistics across groups.
+![Box-Plot](/Users/patrickblumrich/Bildschirmfotos/Box_Plot.png)
+![Violin-Plot](/Users/patrickblumrich/Bildschirmfotos/Violin_Plot.png)
+
+Scatter plots are commonly used to visualize relationships between two numeric variables.
+![Scatter-Plot](/Users/patrickblumrich/Bildschirmfotos/Scatter_Plot.png)
 
 ### Colour Palettes
 
