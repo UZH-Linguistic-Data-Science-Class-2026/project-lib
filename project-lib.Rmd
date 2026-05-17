@@ -85,7 +85,26 @@ Summarise the main output formats (not all available options) and explain what e
 
 ### Markdown Text Formatting
 
-Demonstrate how to format text, create lists, provide links, embed images, create footnotes
+To create headings in a markdown file, precede the text in question with the `#` symbol, followed by a space. The size of the heading can be changed by adding several `#` symbols. The more symbols precede the text line, the smaller the heading will appear, thus also being lower in the hierarchy. 
+
+Text styles can be changed with different symbols. To write in bold, the text must be surrounded by two `*` or `_` symbols on either side (e.g. `**bold**`). Italics require only one `*` or `_` symbol on both sides of the text. Strikethrough text can be used by using either one or two `~` symbols on either side of the text. 
+
+One can also indicate quotes in markdown by preceding the text with the `> symbol. This creates an indent with a line to the left to set apart the quote from the rest of the text. 
+
+To quote code, surround the text in questions with backticks `. 
+
+
+Lists can be created in two ways: Unordered lists use lines preceded by the `-`, `*`, or `+` symbols. Using any of these symbols will create the same bulletted list format. List can also be ordered by writing a number in front of the text on each line. 
+To nest lists, type spaces in front of the text line that lies below the first list item. This can then be repeated for the items that lie underneath the first nested line. 
+
+
+Links can also be provided in text by typing brackets `[]` around link text, followed by parentheses `()` around the URL. Here is an example: `[Linguistic Data Science Class Library](https://github.com/UZH-Linguistic-Data-Science-Class-2026/project-lib/)`
+
+
+To display images in a markdown file, type ! followed by brackets containing the alt text. Finally, add parentheses around the link to the image. 
+
+
+To display a given text as a footnote, it must be followed by brackets containing the `^` symbol with a number after it. It should look like this: `Text[^1].` 
 
 ### Markdown Citations
 
