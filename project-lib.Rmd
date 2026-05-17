@@ -62,7 +62,17 @@ Provide links to several linguistic databases and briefly summarise the type of 
 
 ### *Tidyverse* umbrella
 
-Explain which packages are included in *tidyverse* and describe the purpose of each package and the types of tasks it is best suited for.
+The [tidyverse](https://tidyverse.org/) consists of a collection of R packages. New packages get added frequently.
+
+- **Tidyr** is used to clean data and helps to turn "messy" data into a tidy format. 
+- **dplyr** is used to manipulate and join data and provides functions to filter rows, select columns and reorder rows.
+- **tibble** provides re-imagining of the classic data frame and makes working with data structures in R cleaner and keeps the console output neat.
+- **ggplot2** is used to plot your data and to visualise it. You can visualise your data layer by layer. 
+- **readr** is designed to import data into R and provides a fast way to read rectangular data like CSV, TSV or log files.
+- **stringr** is used for string manipulation.
+- **forcats** is used for factors in R and helps to reorder, rename or change the levels of a factor.
+- **lubridate** makes it easier to work with dates and times and simplifies parsing, manipulating and doing arithmetic with time-stamps.
+- **purrr** enhances R's functional programming toolkit and allows you to apply functions to data.
 
 ### *Dplyr* cheat sheet
 
