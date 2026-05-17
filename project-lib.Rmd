@@ -93,7 +93,72 @@ Explain how to create cross-references within a document, generate a bibliograph
 
 ### Formatting Tables 
 
-Explain how to create tables and captions, and describe the main table formatting options available in R Markdown.
+#Explain how to create tables and captions, and describe the main table formatting options available in R Markdown.
+
+There are different options of creating tables in an R Markdown file.
+
+#### 1. Using 'Pipes' for simple tables:
+
+```{r}
+#Table: Table 1: Names, ages and animals
+
+#| Name | Age | Animal |
+#|------|-----|------|
+#| Mirjam | 21  | Duck |
+#| Sally | 25  | Frog   |
+#| Dorina | 22  | Raccoon  |
+```
+
+Table: Table 1: Names, ages and animals
+
+| Name | Age | Animal |
+|------|-----|------|
+| Mirjam | 21  | Duck |
+| Sally | 25  | Frog   |
+| Dorina | 22  | Raccoon  |
+
+To add a caption to your table, you just need to write your desired caption on top of the table with a preceeding "Table:".
+
+#### 2. Using 'knitr::kable()' function:
+
+```{r}
+library(knitr)
+
+data <- data.frame(
+    Name = c("Mirjam", "Sally", "Dorina"),
+    Age = c(21.2202, 25.1703, 22.2802),
+    Animal = c("Duck", "Frog", "Raccoon")
+)
+
+kable(data, caption = "Table 2: Names, ages and animals")
+```
+To add a caption, just define your desired caption in the "caption" variable.
+
+#### 2.1 Formatting using 'knitr::kable()':
+Usign 'knitr' you can format your data easily.
+- Alignment: Aligning the columns left, center or right
+```{r}
+kable(data, align = c("l", "c", "r"))
+```
+- Number formatting: How many decimals should be displayed
+```{r}
+kable(data, digits = 2)
+```
+
+#### 3. Using 'table()' function to count frequencies:
+
+```{r}
+Animals <- c("Duck", "Duck", "Frog", "Raccoon", "Frog")
+
+#table(animals)  <--- This works and produces a table, with that you just won't be able to add a caption
+knitr::kable(table(Animals), caption = "Table 3: Frequency of animals")
+```
+To add a caption, you need to wrap the 'table()' function into the kable() function and define your 'caption' variable.
+Using 'kable()' also makes the table a lot prettier than just the plain 'table()' table.
+
+#### Further literature on RMD tables:
+I found this interesting paper from the R-Project organisation themselves. It's a detailed paper on how to create different and more complex tables than just these three rather simple ones introduced.
+If you're interested, go check it out: [Tables in R PDF URL](https://cran.r-project.org/web/packages/DescTools/vignettes/TablesInR.pdf)
 
 ### Code Cells
 
