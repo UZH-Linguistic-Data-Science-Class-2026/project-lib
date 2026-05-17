@@ -91,6 +91,30 @@ Demonstrate how to format text, create lists, provide links, embed images, creat
 
 Explain how to create cross-references within a document, generate a bibliography, and properly add citations.
 
+Cross-references can be used to link other sections within the same document. This is done using anchor links. For example, if you have a heading called like this: 
+
+## Results 
+
+you can link to it with: 
+
+[Go to Results](#results)
+
+Citations can be added using citation keys inside square brakcets. For example: 
+
+Language diversity has been wiedely studied [@croft2003]. 
+
+You can also include multiple citations at the same time. For example:
+
+[@croft2003; @dixon2010]
+
+To create a bibliography, connect a `.bib`file in the YAML header: 
+
+bibliography: references.bib
+
+The `.bib` file contains the information about your references. When the document is rendered, R Markdown automatically creates a Reference section with all cited sources. 
+
+
+
 ### Formatting Tables 
 
 Explain how to create tables and captions, and describe the main table formatting options available in R Markdown.
