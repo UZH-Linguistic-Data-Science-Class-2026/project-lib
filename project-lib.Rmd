@@ -17,26 +17,102 @@ In a list, provide your name and which task you completed
 
 ### The Importance of Reproducible Research: Main Steps
 
-Here, you should explain why research needs to be reproducible and transparent, and provide a brief overview of the key steps involved.
+You should always show, how you got to the results of your research, so other people can check your research and reproduce it. They could potentially also
+create new experiments based on your work, which means they need to be able to understand your reasoning and the steps you took to get to your results. 
+The UZH has a center for [Reproducable Science](!https://www.crs.uzh.ch/en.html) that provides help and instructions on how to conduct reproducable science and research.
+
 
 ### Open Science and FAIR Data Principles
 
-Summarise the main principles of Open Science and explain what FAIR Data Principles stand for. Explain the main steps one should take to make their work reproducible.
+**Open Science** is a term that describes the practice of making all types of scientific resources (data, results, methods, etc.) publicly available at every stage of the research process. Open Science aims to improve the efficiency and quality of research, and has many advantages in various fields.
+The main key areas of Open Science are:
+- Public access to scientific data and services, including codes, publications, and sources;
+- Publications are registered as open (Open Access) when they are digital, online, free of charge, and free of copyright and licensing restrictions.
+- Research methods that are reproducible, replicable, transparent, efficient, and improve the robustness of scientific services
+- The implementation of cultural change within university structures and the working methods of researchers.
+[The University of Zurich] (https://www.openscience.uzh.ch/de/open-science-an-uzh.html) engages with Open Science at an international and national level and is part of various initiatives.
+
+The **FAIR data principles** are a fundamental part of open science, which implies the following:
+- **Findable**: data must be easily findable and machine-readable, and have a unique persistent identifier.
+- **Accessible**: data and publications must be accessible to everyone.
+- **Interoperable**: data must be processed using open-source software that is easily downloadable and usable.
+- **Re-usable**: everything must be documented for future studies to be re-used.
+It is necessary that the data used in research follow the FAIR data principles so that the research is as accessible and reproducible as possible.
+
+Main steps to make your work reproducible: 
+- Provide tested and documented source code
+- Use dependencies that are easy to find and install
+- Use open-source programming languages
+- Use open-source operating systems
+- Make raw data and data scripts accessible to everyone
+- Preregister your research
 
 ### Resources and Platforms 
 
-Provide brief descriptions and links to the resources that one could use to make their work reproducible.
+- R
+  R is a programming language widely used for statistical analysis and data science.
+
+- RStudio
+  RStudio provides a convenient environment for writing and running R code, managing files, and organising projects.
+
+- R Markdown
+  R Markdown allows researchers to combine code, results, and written explanations in one document.
+
+- GitHub  
+  GitHub helps track changes in code and makes collaboration in group projects easier.
+
+- Tidyverse
+  Tidyverse is a collection of R packages for data science.
+
+- dplyr
+  dplyr is useful for data manipulation, such as filtering, selecting, and summarising data.
+
+- tidyr
+  tidyr helps organise and reshape data into a tidy format.
+
+- ggplot2
+  ggplot2 is used for creating clear and informative data visualisations.
+
+These tools help researchers organise workflow and make analyses easier to reproduce.
 
 
 ## The Art (and Science) of Plotting
 
 ### Plot Types
 
-Provide an overview of the main plot types (including visual examples) and explain which types of data are best suited for each kind of plot.
+ggplot2 allows the creation of various plot types for data visualization, each serving a different analytical purpose.
+
+Bar plots, dot plots, and line plots are commonly used to visualize frequencies, counts, and proportions.
+![Bar-Plot](/Users/patrickblumrich/Bildschirmfotos/Bar_Plot.png)
+![Dot-Plot](/Users/patrickblumrich/Bildschirmfotos/Dot_Plot.png)
+![Line-Plot](/Users/patrickblumrich/Bildschirmfotos/Line_Plot.png)
+
+Several visualization options are available for continuous data, depending on the type of information that should be emphasized.
+Histograms and density plots are commonly used to visualize the distribution of continuous data.
+![Histogram](/Users/patrickblumrich/Bildschirmfotos/Histogram.png)
+![Density-Plot](/Users/patrickblumrich/Bildschirmfotos/Density_Plot.png)
+
+Box plots and violin plots are commonly used to compare summary statistics across groups.
+![Box-Plot](/Users/patrickblumrich/Bildschirmfotos/Box_Plot.png)
+![Violin-Plot](/Users/patrickblumrich/Bildschirmfotos/Violin_Plot.png)
+
+Scatter plots are commonly used to visualize relationships between two numeric variables.
+![Scatter-Plot](/Users/patrickblumrich/Bildschirmfotos/Scatter_Plot.png)
 
 ### Colour Palettes
 
 Explain how to use colour palettes effectively, which types of palettes are best suited to different kinds of data, and what factors should be considered when selecting an appropriate colour scheme.
+
+It is important to choose appropriate colours to represent you data. The chosen palette should reflect the meaning of the variable. Colours make the figures more appealing and memorable. In papers/reports, you have to prioritize consistency and readability.
+
+Types of palettes:
+Sequential palettes: for ordered data or magnitude/intensity/frequency (Exp.: population density)
+Diverging scales: data with meaningful midpoint or direction & magnitude of difference (Exp.: correlation from -1 to 1)
+Categorical/qualitative palettes: for unordered/categorical data; no implied ordering (Exp.: countries)
+
+It is important to consider accessibility when choosing colour palettes. For example, colour blind people won't perceive the colours the same way as someone who isn't colour blind. It is also important to check the contrast between light and dark backgrounds and text. Also, the number of categories matter too because too many colours may cause chaos and make the visualization unreadable. You also have to consider that the colour choices are safe if you want to print your visualizations. 
+
+Useful ggplot packages for colours are: viridis, RColorBrewer and paletteer.
 
 ### Plotting Tools and Resources
 
@@ -51,7 +127,19 @@ Summarise the main types of linguistic databases and describe the key features t
 
 ### Choosing Database for your Research
 
-Explain which types of linguistic databases are best suited to different major research directions in linguistics.
+Choosing the right database depends on what aspect of language you want to investigate.
+
+For **typological research**, [WALS](https://wals.info) (World Atlas of Language Structures) is the most widely used database. It contains over 200 linguistic features like word order, case marking, and phoneme inventories, each displayed on an interactive world map across thousands of languages. [AUTOTYP](https://www.autotyp.uzh.ch) is a good alternative that focuses more on how grammatical categories interact with each other, for example how case marking, agreement, and clause linkage work together. It provides more fine-grained morphosyntactic data than WALS.
+
+For **historical and comparative linguistics**, [Glottolog](https://glottolog.org) is the main reference. It covers nearly all known languages with their genealogical classification, geographic location, and bibliographic references. It doesn't contain grammatical features like WALS, but it's essential when you need to know which language family a language belongs to or find published descriptions of a language.
+
+For **corpus-based research**, [BNC](http://www.natcorp.ox.ac.uk) (British National Corpus) and [COCA](https://www.english-corpora.org/coca/) (Corpus of Contemporary American English) are commonly used for studying things like word frequency, collocations, and usage patterns in English. For research on language acquisition, [CHILDES](https://childes.talkbank.org) contains transcribed conversations between children and caregivers in many languages and is the standard resource in the field.
+
+For **phonetics and phonology**, [PHOIBLE](https://phoible.org) collects phonological inventories from across the world's languages, documenting which consonants, vowels, and tones each language uses. It's useful for cross-linguistic comparisons of sound systems.
+
+For **endangered and under-documented languages**, [ELAR](https://www.elararchive.org) (Endangered Languages Archive) and [PARADISEC](https://www.paradisec.org.au) store audio and video recordings, transcriptions, and other field data from languages that have very limited documentation.
+
+In many cases, combining databases gives you a more complete picture. For example, a typological study could draw structural data from WALS and genealogical information from Glottolog to investigate whether a cross-linguistic pattern is driven by shared ancestry or independent development.
 
 ### Links and Descriptions
 
@@ -84,22 +172,93 @@ Provide the list of most useful *tidyr* commands, explain what they do, and demo
 
 ### *Ggplot2* cheat sheet
 
-Provide the list of *ggplot2* commands and aesthetic parameters, explain what they do, and demonstrate which changes they make to a plot
+*ggplot()* initialises a plot object
+
+Different type of plots:
+    *geom_point()* creates a scatter plot
+    *geom_line()* creates a line plot
+    *geom_bar()* creates a bar plot
+    *geom_col()* creates a column plot
+    *geom_histogram()* creates a histogram
+    *geom_boxplot()* creates a box plot
+    *geom_violin()* creates a violin plot
+    *geom_density()* creates a density plot
+    *geom_smooth()* adds a smoothed line to the plot
+
+Core aesthetics:
+    *aes(x, y, color, fill, size, shape, alpha)*
+    where x and y define the horizontal and vertical axes, color and fill control the color, size controls the size of points or line, shape controls the point symbol, and alpha controls the transparency.
+
+Further parameters are 
+    - *linetype* to control the line style (dashed, dotted or solid)
+    - *group* to specify how observations are grouped
+
+You can also adjust the labels and titles using *labs(title = "Your Title", x = "X-axis Label", y = "Y-axis Label")* and *theme()*, where labs() takes care of titles and axis labels, and theme(), like theme_minimal(), theme_bw() and theme_classic(), allows you to customize the overall appearance of the plot, including text size, font, background, and grid lines.
+You can flip the axes using *coord_flip()*
 
 
 ## Compiling an R Markdown document
 
 ### Markdown Output Formats
 
-Summarise the main output formats (not all available options) and explain what each is useful for.
+The main output formats are HTML, PDF and Microsoft Word (docx).
+#### HTML Markdown Format
+HTML is usefull when publishing directly on a website, blogs and other online documentation because HTML is the standard language for websites.
+#### PDF Markdown Format
+PDF is usefull for a final report, papers, books and other finalised publications because it preserves its formatting over all devices.
+#### DOCX Markdown Format
+DOCX is usefull for collaborative work as well as files that need further editing.
 
 ### Markdown Text Formatting
 
-Demonstrate how to format text, create lists, provide links, embed images, create footnotes
+To create headings in a markdown file, precede the text in question with the `#` symbol, followed by a space. The size of the heading can be changed by adding several `#` symbols. The more symbols precede the text line, the smaller the heading will appear, thus also being lower in the hierarchy. 
+
+Text styles can be changed with different symbols. To write in bold, the text must be surrounded by two `*` or `_` symbols on either side (e.g. `**bold**`). Italics require only one `*` or `_` symbol on both sides of the text. Strikethrough text can be used by using either one or two `~` symbols on either side of the text. 
+
+One can also indicate quotes in markdown by preceding the text with the `> symbol. This creates an indent with a line to the left to set apart the quote from the rest of the text. 
+
+To quote code, surround the text in questions with backticks `. 
+
+
+Lists can be created in two ways: Unordered lists use lines preceded by the `-`, `*`, or `+` symbols. Using any of these symbols will create the same bulletted list format. List can also be ordered by writing a number in front of the text on each line. 
+To nest lists, type spaces in front of the text line that lies below the first list item. This can then be repeated for the items that lie underneath the first nested line. 
+
+
+Links can also be provided in text by typing brackets `[]` around link text, followed by parentheses `()` around the URL. Here is an example: `[Linguistic Data Science Class Library](https://github.com/UZH-Linguistic-Data-Science-Class-2026/project-lib/)`
+
+
+To display images in a markdown file, type ! followed by brackets containing the alt text. Finally, add parentheses around the link to the image. 
+
+
+To display a given text as a footnote, it must be followed by brackets containing the `^` symbol with a number after it. It should look like this: `Text[^1].` 
 
 ### Markdown Citations
 
 Explain how to create cross-references within a document, generate a bibliography, and properly add citations.
+
+Cross-references can be used to link other sections within the same document. This is done using anchor links. For example, if you have a heading called like this: 
+
+## Results 
+
+you can link to it with: 
+
+[Go to Results](#results)
+
+Citations can be added using citation keys inside square brakcets. For example: 
+
+Language diversity has been wiedely studied [@croft2003]. 
+
+You can also include multiple citations at the same time. For example:
+
+[@croft2003; @dixon2010]
+
+To create a bibliography, connect a `.bib`file in the YAML header: 
+
+bibliography: references.bib
+
+The `.bib` file contains the information about your references. When the document is rendered, R Markdown automatically creates a Reference section with all cited sources. 
+
+
 
 ### Formatting Tables 
 
