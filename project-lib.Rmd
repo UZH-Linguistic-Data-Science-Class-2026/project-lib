@@ -123,13 +123,39 @@ Here, you should include links and brief descriptions of platforms and software 
 
 ### Database Types
 
-Summarise the main types of linguistic databases and describe the key features that distinguish them from one another.
+
+
+
+## Linguistic Database Repository
+
+### Database Types
+
+Linguistic databases are structured collections of language-related information.
+
+The most important types include typological databases, lexical databases, corpora, grammatical databases, and bibliographic or documentation databases.
+
+- Typological databases
+collect information about structural features of languages. These features can include word order, sound inventories, case marking, negation strategies, or alignment systems. A key feature of typological databases is that they allow researchers to compare languages systematically. They are especially useful for studying cross-linguistic patterns, language universals, and geographical distributions of linguistic features.
+
+- Lexical databases
+focus on words and meanings. They contain word lists, translations, semantic fields, cognates, or etymological information. These databases are useful for research on language relationships, historical linguistics, semantic change, and lexical comparison. A lexical database is usually organised around entries for words or concepts, rather than around grammatical features.
+
+- Corpora
+are collections of naturally occurring language data, usually in the form of texts, transcribed speech, or written documents. Unlike typological or lexical databases, corpora often preserve language use in context. They can be annotated with information such as part of speech, syntax, morphology, discourse structure, or speaker metadata. Corpora are especially useful for studying frequency, variation, language change, and patterns of actual language use.
+
+- Grammatical databases
+contain detailed information about the grammar of individual languages or language families. They include descriptions of phonology, morphology, syntax, or semantics. Compared to typological databases, grammatical databases are often more detailed but cover fewer languages. They are useful when researchers need richer descriptive information rather than only short coded feature values. For example, a typological database can state that a language has case marking, while a grammatical database would describe which cases exist and how they are used.
+
+- Bibliographic and documentation databases
+collect references, metadata, and documentation materials about languages. Bibliographic databases include information about grammars, dictionaries, articles, or dissertations, while documentation databases  preserve primary language materials, such as texts, audio recordings, video recordings, transcriptions, translations, or fieldwork materials. These databases are important for finding sources, checking the availability of language documentation, and identifying under-documented or endangered languages.
+
+Thus, the main differences between these database types are their focus, structure, and intended use.
 
 ### Choosing Database for your Research
 
 Choosing the right database depends on what aspect of language you want to investigate.
 
-For **typological research**, [WALS](https://wals.info) (World Atlas of Language Structures) is the most widely used database. It contains over 200 linguistic features like word order, case marking, and phoneme inventories, each displayed on an interactive world map across thousands of languages. [AUTOTYP](https://www.autotyp.uzh.ch) is a good alternative that focuses more on how grammatical categories interact with each other, for example how case marking, agreement, and clause linkage work together. It provides more fine-grained morphosyntactic data than WALS.
+For typological research, [WALS](https://wals.info) (World Atlas of Language Structures) is the most widely used database. It contains over 200 linguistic features like word order, case marking, and phoneme inventories, each displayed on an interactive world map across thousands of languages. [AUTOTYP](https://www.autotyp.uzh.ch) is a good alternative that focuses more on how grammatical categories interact with each other, for example how case marking, agreement, and clause linkage work together. It provides more fine-grained morphosyntactic data than WALS.
 
 For **historical and comparative linguistics**, [Glottolog](https://glottolog.org) is the main reference. It covers nearly all known languages with their genealogical classification, geographic location, and bibliographic references. It doesn't contain grammatical features like WALS, but it's essential when you need to know which language family a language belongs to or find published descriptions of a language.
 
