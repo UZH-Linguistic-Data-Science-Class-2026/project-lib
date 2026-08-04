@@ -13,6 +13,20 @@ knitr::opts_chunk$set(echo = TRUE)
 
 In a list, provide your name and which task you completed
 
+- The Importance of Reproducible Research: Main Steps (Paula Lisa Stoll)
+- Open Science and FAIR Data Principles (Mai-Ly Mischler)
+- Resources and Platforms (Namila Namila)
+- Plot Types (Patrick Blumrich)
+- Colour Palettes (Kamuran Sila Aldas)
+- Database Types (Charlotte Werren)
+- Choosing Database for your Research (Xijie Wang)
+- Tidyverse Umbrella (Lena Maria Dünnenberger)
+- Ggplot2 Cheat Sheet (Dorina Elenia Oeschger)
+- Markdown Output Formats (Sally Mueller)
+- Markdown Text Formatting (Sarah Banov)
+- Markdown Citations (Brooke Schmid)
+- Markdown Formatting Tables (Mirjam Willi)
+
 ## Reproducible Data Science
 
 ### The Importance of Reproducible Research: Main Steps
